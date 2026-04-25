@@ -1,6 +1,6 @@
-# SentinelBot Webwic
+# SentinelBot
 
-SentinelBot Webwic is a full-stack platform for managing automated QA runs, issues, evidence, and Slack ownership. It consists of three services:
+SentinelBot is a full-stack platform for managing automated QA runs, issues, evidence, and Slack ownership. It consists of three services:
 - **Frontend**: React + Vite SPA for dashboards, runs, issues, evidence, and user management.
 - **Backend API**: FastAPI service that provides auth, data access, and orchestration.
 - **Sentinel Runner**: A separate FastAPI service that executes AI-driven Playwright runs and writes results to Supabase.
